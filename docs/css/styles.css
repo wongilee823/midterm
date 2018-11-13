@@ -21,7 +21,7 @@ body {
 #banner {
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
     background-size: cover;
-    height: 367px;
+    height: 500px;
     position: relative;
 }
 #main {
@@ -39,7 +39,11 @@ body {
     width: 960px;
     text-align: center;
 }
-
+#table {
+    margin-left:31px;
+    margin-top: 0px;
+    margin-bottom: 124px;
+}
 #banner h1 {
     position: relative;
     top: 115px;
@@ -136,7 +140,7 @@ a:hover {
 }
 
 .grFont {
-    line-height: 27px;
+    line-height: 20px;
     font-size: 16px;
 }
 
