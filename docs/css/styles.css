@@ -22,13 +22,13 @@ body {
     width: 960px;
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
     background-size: cover;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 
 #bannerfirst{
     width: 480px;
-    height: 500px;
+    height: 550px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 #main {
@@ -36,7 +36,7 @@ body {
 }
 
 #hero-text {
-    margin-left: 30px;
+    margin-left: 10px;
     width: 367px;
     position: relative;
     top: 50px;
@@ -62,8 +62,14 @@ body {
 }
 #banner h1 {
     position: relative;
-    top: 115px;
-    left: 100px;
+    top: 116px;
+    left: 37px;
+}
+
+#banner h2 {
+    position: relative;
+    top: 120px;
+    left: 340px;
 }
 .contentMargin {
     margin-left: 31px;
