@@ -33,6 +33,11 @@ body {
 #footer {
     height: 100px;
     line-height: 100px;
+    background-color: black;
+    color: white;
+    clear:both;
+    width: 960px;
+    text-align: center;
 }
 
 #banner h1 {
@@ -59,7 +64,7 @@ body {
 .panelHeadingMargin {
     margin-left:31px;
     margin-top: 0px;
-    margin-bottom: 16px;
+    margin-bottom: 124px;
 }
 .topMargin {
     margin-top: 31px;
@@ -149,4 +154,8 @@ a:hover {
 
 .alignCenter {
     text-align: center;
+}
+
+.whiteColor{
+    color: white;
 }
