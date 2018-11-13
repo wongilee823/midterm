@@ -1,11 +1,8 @@
-body {
-    overflow: scroll;
-}
 
 #wrapper {
     width: 960px;
-    /* background-color: blanchedalmond; */
 }
+
 #top {
     height: 135px;
     line-height: 135px;
@@ -15,9 +12,10 @@ body {
     height: 135px;
 }
 
-#sideCard {
+#pictureMiddle{
     padding: 18px;
 }
+
 #banner {
     width: 960px;
     background-image: url("../images/4x4-adventure-automobile-1571783.jpg");
@@ -36,14 +34,6 @@ body {
     margin-top: 31px;
 }
 
-#hero-text {
-    margin-left: 10px;
-    width: 367px;
-    position: relative;
-    top: 50px;
-    left: 100px;
-}
-
 #panel1, #panel2, #panel3 {
     width: 320px;
 }
@@ -51,13 +41,11 @@ body {
     height: 100px;
     line-height: 100px;
     background-color: black;
-    color: white;
     clear:both;
     width: 960px;
     text-align: center;
 }
 #table {
-    margin-left:31px;
     margin-top: 0px;
     margin-bottom: 124px;
 }
@@ -72,40 +60,20 @@ body {
     top: 120px;
     left: 330px;
 }
+
 .contentMargin {
     margin-left: 31px;
     margin-right: 31px;
 }
-.contentText {
+.marginLeft {
     margin-left: 31px;
-}
-.panelMargin {
-    margin-left: 62px;
-    margin-right: 31px;
-}
-.panelOlMargin {
-    margin-left: 31px;
-    margin-right: 31px;
 }
 
-.panelHeadingMargin {
-    margin-left:31px;
-    margin-top: 0px;
-    margin-bottom: 124px;
-}
-.topMargin {
-    margin-top: 31px;
-}
 a {
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
-}
-
-.fullPercent {
-    width: 100%;
-    height: 100%;
 }
 
 .textCenter {
@@ -120,22 +88,6 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
 }
-
-.displayInline {
-    display: inline;
-}
-
-.sqrPadding {
-    padding-left: 31px;
-    padding-right: 31px;
-}
-.wrapperPaddingRight {
-    padding-right: 31px;
-}
-.floatLeft {
-    float: left;
-}
-
 .clearMargin {
     margin: 0px;
 }
@@ -144,19 +96,22 @@ a:hover {
     padding: 0px;
 }
 
-
-.grSmallPadding {
-    padding-left: 19px;
-    padding-right: 19px;
+.displayInline {
+    display: inline;
 }
-.grSmall {
+
+.wrapperPaddingRight {
+    padding-right: 31px;
+}
+.floatLeft {
+    float: left;
+}
+
+.goldenSmall {
     width: 329px;
 }
-.grBigPadding {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.grBig {
+
+.goldenBig {
     width: 600px;
 }
 
@@ -173,14 +128,6 @@ a:hover {
     text-align: right;
 }
 
-.alignRight {
-    text-align: right;
-}
-
-.alignCenter {
-    text-align: center;
-}
-
-.whiteColor{
+.colorWhite{
     color: white;
 }
